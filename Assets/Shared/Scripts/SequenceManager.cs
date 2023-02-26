@@ -22,6 +22,8 @@ namespace HyperCasual.Gameplay
         GameObject[] m_LevelManagers;
         [SerializeField]
         GameObject PlayerPrefab;
+        [SerializeField] GameObject loadingSceneAssets;
+        public GameObject InGameLoadingAssets;
         public AbstractLevelData[] Levels => m_Levels;
         [Header("Events")]
         [SerializeField]
@@ -70,6 +72,7 @@ namespace HyperCasual.Gameplay
             {
                 Instantiate(asset);
             }
+            InGameLoadingAssets = Instantiate(loadingSceneAssets);
         }
 
         void CreateMenuNavigationSequence()

@@ -61,6 +61,8 @@ MonoBehaviour:
   - {fileID: 7732658091594729695, guid: 67412f9863af24cf0a73c3bae209c29c, type: 3}
   PlayerPrefab: {fileID: 168254820557207646, guid: 74d95819124502c499c4372060f31bec,
     type: 3}
+  loadingSceneAssets: {fileID: 5690679488431610557, guid: 72f097d944c88274d85fca59269a312e,
+    type: 3}
   m_ContinueEvent: {fileID: 11400000, guid: b892538bd49f3487bbedf5106c094739, type: 2}
   m_BackEvent: {fileID: 11400000, guid: 58f804667e2cb4eb789b6d2dfb3c4ce3, type: 2}
   m_WinEvent: {fileID: 11400000, guid: 4facc4ba26e884ef88b6c2506fa5ae2c, type: 2}
