@@ -72,7 +72,7 @@ namespace HyperCasual.Gameplay
             {
                 Instantiate(asset);
             }
-            InGameLoadingAssets = Instantiate(loadingSceneAssets);
+           
         }
 
         void CreateMenuNavigationSequence()
@@ -186,7 +186,8 @@ namespace HyperCasual.Gameplay
         void OnMainMenuDisplayed()
         {
             ShowUI<MainMenu>();
-            AudioManager.Instance.PlayMusic(SoundID.MenuMusic);
+            AudioManager.Instance.PlayMusic(SoundID.MenuMusic); 
+            InGameLoadingAssets = Instantiate(loadingSceneAssets);
         }
 
         void OnWinScreenDisplayed(IState currentLevel)
@@ -210,6 +211,7 @@ namespace HyperCasual.Gameplay
         
         void OnGamePlayStarted(IState current)
         {
+            Destroy(InGameLoadingAssets);
             m_CurrentLevel = current;
             ShowUI<Hud>();
             AudioManager.Instance.StopMusic();

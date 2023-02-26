@@ -216,7 +216,6 @@ namespace HyperCasual.Runner
         void StartGame()
         {
             ResetLevel();
-            Destroy(FindAnyObjectByType<HyperCasual.Gameplay.SequenceManager>().InGameLoadingAssets);
             m_IsPlaying = true;
         }
 
