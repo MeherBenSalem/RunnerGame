@@ -47,8 +47,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 772645ebc958145c092d6949f827e632, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Animator: {fileID: 0}
-  m_SkinnedMeshRenderer: {fileID: 0}
+  m_Animator: {fileID: 5358026207155920517}
+  m_SkinnedMeshRenderer: {fileID: 5358026207151730209}
   m_PlayerSpeed: 1
   m_CustomPlayerSpeed: 10
   m_AccelerationSpeed: 10
@@ -150,6 +150,18 @@ PrefabInstance:
 --- !u!4 &5358026207148667297 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 440500, guid: 5f6cbb0f4dd572e47ab1ee6c2a3a36d1,
+    type: 3}
+  m_PrefabInstance: {fileID: 5358026207148558613}
+  m_PrefabAsset: {fileID: 0}
+--- !u!137 &5358026207151730209 stripped
+SkinnedMeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 13756212, guid: 5f6cbb0f4dd572e47ab1ee6c2a3a36d1,
+    type: 3}
+  m_PrefabInstance: {fileID: 5358026207148558613}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &5358026207155920517 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9557904, guid: 5f6cbb0f4dd572e47ab1ee6c2a3a36d1,
     type: 3}
   m_PrefabInstance: {fileID: 5358026207148558613}
   m_PrefabAsset: {fileID: 0}
