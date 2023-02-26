@@ -22,6 +22,8 @@ namespace HyperCasual.Runner
         /// </summary>
         public static GameManager Instance => s_Instance;
         static GameManager s_Instance;
+        [SerializeField] Material newSkybox;
+        static Material newSkyboxtoApply;
 
         [SerializeField]
         AbstractGameEvent m_WinEvent;
@@ -50,12 +52,13 @@ namespace HyperCasual.Runner
 
         void Awake()
         {
+
             if (s_Instance != null && s_Instance != this)
             {
                 Destroy(gameObject);
                 return;
             }
-
+            newSkyboxtoApply = newSkybox;
             s_Instance = this;
 
 #if UNITY_EDITOR
@@ -139,7 +142,6 @@ namespace HyperCasual.Runner
             levelManager.LevelDefinition = levelDefinition;
 
             Transform levelParent = levelGameObject.transform;
-
             for (int i = 0; i < levelDefinition.Spawnables.Length; i++)
             {
                 LevelDefinition.SpawnableObject spawnableObject = levelDefinition.Spawnables[i];
@@ -154,7 +156,7 @@ namespace HyperCasual.Runner
                 Vector3 scale = spawnableObject.Scale;
 
                 GameObject go = null;
-                
+
                 if (Application.isPlaying)
                 {
                     go = GameObject.Instantiate(spawnableObject.SpawnablePrefab, position, Quaternion.Euler(eulerAngles));
@@ -187,6 +189,8 @@ namespace HyperCasual.Runner
                     go.transform.SetParent(levelParent);
                 }
             }
+            Camera.main.GetComponent<Skybox>().material = newSkyboxtoApply;
+            // Get the current camera's Skybox component
         }
 
         public void UnloadCurrentLevel()
