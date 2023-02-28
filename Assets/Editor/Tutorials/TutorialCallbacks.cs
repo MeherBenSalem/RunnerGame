@@ -36,7 +36,7 @@ namespace Unity.Hypercasual.Tutorials.Editor
         }
 
         [SerializeField]
-        Tutorial m_StartupTutorial;
+        Unity.Tutorials.Core.Editor.Tutorial m_StartupTutorial;
 
         public void StartStartupTutorial()
         {
