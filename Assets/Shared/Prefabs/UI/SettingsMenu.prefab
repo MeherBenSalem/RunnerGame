@@ -1766,7 +1766,7 @@ PrefabInstance:
     - target: {fileID: 8790377886039207152, guid: e2817ba29ba59484a96ceffea6c5abf2,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 96
+      value: 81.2219
       objectReference: {fileID: 0}
     - target: {fileID: 8790377886039207152, guid: e2817ba29ba59484a96ceffea6c5abf2,
         type: 3}
@@ -1837,6 +1837,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Back Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 8790377886039207153, guid: e2817ba29ba59484a96ceffea6c5abf2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2817ba29ba59484a96ceffea6c5abf2, type: 3}
