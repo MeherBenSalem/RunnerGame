@@ -33,7 +33,7 @@ MonoBehaviour:
     SnapToGrid: 1
   - SpawnablePrefab: {fileID: 3066687626860289926, guid: 936a87eb54b63d74193b13a7cb87c3f6,
       type: 3}
-    Position: {x: 0, y: 0.66, z: 9}
+    Position: {x: -0.35, y: 0.66, z: 2.54}
     EulerAngles: {x: -0, y: 0, z: 0}
     Scale: {x: 8.176608, y: 1, z: 1}
     BaseColor: {r: 0, g: 0, b: 0, a: 0}
@@ -169,7 +169,7 @@ MonoBehaviour:
   - SpawnablePrefab: {fileID: 165620, guid: 8a86432aa20034e49aa63a2c97cee0f2, type: 3}
     Position: {x: -7.27, y: -0.0000009536743, z: 122.4}
     EulerAngles: {x: -0, y: 90, z: -0}
-    Scale: {x: 1.0000079, y: 1, z: 1.0000079}
+    Scale: {x: 1.0000083, y: 1, z: 1.0000083}
     BaseColor: {r: 1, g: 1, b: 1, a: 1}
     SnapToGrid: 1
   - SpawnablePrefab: {fileID: 198202, guid: b1c9a178d3040a14aac77ac6bcbcc9bd, type: 3}
@@ -187,7 +187,7 @@ MonoBehaviour:
   - SpawnablePrefab: {fileID: 131012, guid: 694588147c2fd7e41b0105d7054a7f1a, type: 3}
     Position: {x: -4.691398, y: 0, z: 138.36496}
     EulerAngles: {x: -0, y: 89.99999, z: -0}
-    Scale: {x: 0.9999962, y: 1, z: 0.9999962}
+    Scale: {x: 0.99999595, y: 1, z: 0.99999595}
     BaseColor: {r: 1, g: 1, b: 1, a: 1}
     SnapToGrid: 1
   - SpawnablePrefab: {fileID: 143728, guid: ea45161d31d19c540af5f5091648f652, type: 3}
@@ -391,7 +391,7 @@ MonoBehaviour:
   - SpawnablePrefab: {fileID: 164098, guid: 416c46ca128db5f4bb76f235b4f991d5, type: 3}
     Position: {x: -1.85, y: 0.10000038, z: 82.11}
     EulerAngles: {x: -0, y: 93.15717, z: -0}
-    Scale: {x: 1.0000064, y: 1, z: 1.0000064}
+    Scale: {x: 1.0000069, y: 1, z: 1.0000069}
     BaseColor: {r: 1, g: 1, b: 1, a: 1}
     SnapToGrid: 1
   - SpawnablePrefab: {fileID: 157676, guid: fcd06c9319e99cc4bbee7ce7730d9422, type: 3}
@@ -403,7 +403,7 @@ MonoBehaviour:
   - SpawnablePrefab: {fileID: 130278, guid: 94469aeaca2d49442af381840b70bb6c, type: 3}
     Position: {x: -1.61, y: 0.10000038, z: 115.07}
     EulerAngles: {x: -0, y: 84.73574, z: -0}
-    Scale: {x: 0.99999875, y: 1, z: 0.99999875}
+    Scale: {x: 0.9999986, y: 1, z: 0.9999986}
     BaseColor: {r: 1, g: 1, b: 1, a: 1}
     SnapToGrid: 1
   - SpawnablePrefab: {fileID: 189930, guid: f539f0390d17a9f4a922b722e47998fe, type: 3}

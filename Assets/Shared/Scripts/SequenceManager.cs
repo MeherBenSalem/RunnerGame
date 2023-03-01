@@ -187,6 +187,8 @@ namespace HyperCasual.Gameplay
         {
             ShowUI<MainMenu>();
             AudioManager.Instance.PlayMusic(SoundID.MenuMusic); 
+            if(InGameLoadingAssets!=null)
+                Destroy(InGameLoadingAssets);
             InGameLoadingAssets = Instantiate(loadingSceneAssets);
         }
 
