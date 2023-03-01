@@ -21,15 +21,19 @@ namespace HyperCasual.Runner
         AbstractGameEvent m_StartButtonEvent;
 
         [SerializeField]
-        TMP_Text m_GoldCounter;
+        TMP_Text m_GoldCounter;        
+        [SerializeField]
+        TMP_Text m_MeterCounter;
 
         void OnEnable()
         {
             m_StartButton.AddListener(OnStartButtonClick);
             m_SettingsButton.AddListener(OnSettingsButtonClick);
             m_ShopButton.AddListener(OnShopButtonClick);
-            if(m_GoldCounter!=null&&SaveManager.Instance!=null)
+            if(SaveManager.Instance!=null){
                 m_GoldCounter.text = SaveManager.Instance.Currency+"";
+                m_MeterCounter.text = SaveManager.Instance.XP/100+" m";
+            }
         }
         
         void OnDisable()

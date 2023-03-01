@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7065771133347637528}
   - component: {fileID: 4656135275090686966}
   m_Layer: 5
-  m_Name: Gold value
+  m_Name: Meter value
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -813,6 +813,7 @@ MonoBehaviour:
   m_ShopButton: {fileID: 3824136401208076516}
   m_StartButtonEvent: {fileID: 11400000, guid: b892538bd49f3487bbedf5106c094739, type: 2}
   m_GoldCounter: {fileID: 8919224422145757465}
+  m_MeterCounter: {fileID: 4656135275090686966}
 --- !u!1 &8405303144642299478
 GameObject:
   m_ObjectHideFlags: 0
