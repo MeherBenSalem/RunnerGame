@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using HyperCasual.Core;
 using UnityEngine;
+using TMPro;
 
 namespace HyperCasual.Runner
 {
@@ -19,11 +20,16 @@ namespace HyperCasual.Runner
         [SerializeField]
         AbstractGameEvent m_StartButtonEvent;
 
+        [SerializeField]
+        TMP_Text m_GoldCounter;
+
         void OnEnable()
         {
             m_StartButton.AddListener(OnStartButtonClick);
             m_SettingsButton.AddListener(OnSettingsButtonClick);
             m_ShopButton.AddListener(OnShopButtonClick);
+            if(m_GoldCounter!=null&&SaveManager.Instance!=null)
+                m_GoldCounter.text = SaveManager.Instance.Currency+"";
         }
         
         void OnDisable()
