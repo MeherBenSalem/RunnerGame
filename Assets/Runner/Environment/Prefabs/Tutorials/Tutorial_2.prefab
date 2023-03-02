@@ -112,8 +112,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -7.2755, y: 438.0185}
-  m_SizeDelta: {x: 788.3492, y: 529.1105}
+  m_AnchoredPosition: {x: -8.48896, y: 1234.418}
+  m_SizeDelta: {x: 1939.263, y: 1157.446}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5000127410576251394
 CanvasRenderer:
@@ -190,8 +190,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -8.76001, y: 100}
-  m_SizeDelta: {x: 347.3338, y: 102.85211}
+  m_AnchoredPosition: {x: -7.2756, y: 142.897}
+  m_SizeDelta: {x: 1041.49, y: 188.647}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3066687626808763384
 CanvasRenderer:
@@ -324,10 +324,10 @@ RectTransform:
   m_Father: {fileID: 8882037093190268829}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 5.2037964, y: -26.018372}
-  m_SizeDelta: {x: -123.12128, y: -401.11963}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.00015259, y: 0.000061035}
+  m_SizeDelta: {x: 2399.947, y: 4053.383}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3066687626850855259
 CanvasRenderer:
@@ -590,12 +590,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 19820, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -653,8 +653,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.6705, y: -229.2469}
-  m_SizeDelta: {x: 825.09, y: 734.0294}
+  m_AnchoredPosition: {x: 0.000045776, y: -658.8957}
+  m_SizeDelta: {x: 1995.014, y: 2161.572}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5292348086906938018
 CanvasRenderer:
@@ -686,11 +686,11 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 14
+    m_FontSize: 200
     m_FontStyle: 1
     m_BestFit: 1
     m_MinSize: 1
-    m_MaxSize: 40
+    m_MaxSize: 200
     m_Alignment: 1
     m_AlignByGeometry: 0
     m_RichText: 1
@@ -701,26 +701,25 @@ MonoBehaviour:
     more food you collect, the more cosmetic items you can purchase to customize
     your character''s appearance.
 
-    
 
-    You''ll see food scattered throughout
-    the course, so be sure to collect as much as you can while avoiding obstacles.
-    Each food item you collect adds to your total food currency, so try to get them
-    all!
 
-    
+    You''ll see food scattered throughout the
+    course, so be sure to collect as much as you can while avoiding obstacles. Each
+    food item you collect adds to your total food currency, so try to get them all!
 
-    As you progress through the game, you''ll unlock different
-    cosmetic items that you can purchase using your food currency. These items can
-    include new outfits, hairstyles, and accessories to give your character a unique
-    and personalized look.
 
-    
 
-    So, make sure to keep an eye out for food
-    items as you run through the course. They are the key to unlocking a wide variety
-    of cosmetic items that will make your character stand out from the rest. Good
-    luck and happy running!'
+    As
+    you progress through the game, you''ll unlock different cosmetic items that you
+    can purchase using your food currency. These items can include new outfits, hairstyles,
+    and accessories to give your character a unique and personalized look.
+
+
+
+    So,
+    make sure to keep an eye out for food items as you run through the course. They
+    are the key to unlocking a wide variety of cosmetic items that will make your
+    character stand out from the rest. Good luck and happy running!'
 --- !u!1 &8220378394753368193
 GameObject:
   m_ObjectHideFlags: 0
@@ -756,8 +755,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.6704636, y: 435.08484}
-  m_SizeDelta: {x: 825.0919, y: 564.313}
+  m_AnchoredPosition: {x: -7, y: 1228}
+  m_SizeDelta: {x: 2029.647, y: 1234.453}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5102698960836688888
 CanvasRenderer:
