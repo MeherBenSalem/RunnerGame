@@ -32,7 +32,7 @@ namespace HyperCasual.Runner
             m_ShopButton.AddListener(OnShopButtonClick);
             if(SaveManager.Instance!=null){
                 m_GoldCounter.text = SaveManager.Instance.Currency+"";
-                m_MeterCounter.text = SaveManager.Instance.XP/100+" m";
+                m_MeterCounter.text = (SaveManager.Instance.XP/100f).ToString("F1") + " m";
             }
         }
         

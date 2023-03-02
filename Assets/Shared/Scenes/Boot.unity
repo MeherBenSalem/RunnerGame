@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 238935440}
   - component: {fileID: 238935441}
   m_Layer: 0
-  m_Name: BootLoader
+  m_Name: Seq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

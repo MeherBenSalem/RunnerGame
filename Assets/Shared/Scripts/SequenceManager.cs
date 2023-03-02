@@ -55,6 +55,7 @@ namespace HyperCasual.Gameplay
         public void Initialize()
         {
             m_SceneController = new SceneController(SceneManager.GetActiveScene());
+            Application.targetFrameRate = 100;
             
             InstantiatePreloadedAssets();
 
